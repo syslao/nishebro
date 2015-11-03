@@ -45,3 +45,21 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'devise'
+gem 'foundation-rails'
+gem 'haml-rails'
+gem 'pg'
+gem 'pundit'
+gem 'simple_form'
+gem 'thin'
+
+group :development do
+  gem 'better_errors'
+  gem 'html2haml'
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
